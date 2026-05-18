@@ -2,8 +2,11 @@ import { useSelector, useDispatch } from "react-redux";
 import { increment, decrement, reset } from "../counterSlice";
 
 function Child() {
-  const count = useSelector((state) => state.counter.value);
-  const dispatch = useDispatch();
+  // TODO: Redux 스토어에서 count 값을 가져오세요 (useSelector 사용)
+  const count = null;
+  
+  // TODO: dispatch 함수를 가져오세요 (useDispatch 사용)
+  const dispatch = null;
 
   return (
     <div>
